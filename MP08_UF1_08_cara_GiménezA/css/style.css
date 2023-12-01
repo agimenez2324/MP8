@@ -1,0 +1,304 @@
+* {
+    position: relative;
+  }
+  
+  .fons{
+  
+      background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #d911f2 66%, #ffa079 100%);
+      background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#d911f2 66%,#ffa079 100%);
+      background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#d911f2 66%,#ffa079 100%);
+      background-size: 400% 400%;
+      -webkit-animation: Gradient 15s ease infinite;
+      -moz-animation: Gradient 15s ease infinite;
+      animation: Gradient 15s ease infinite;
+      /*min-height: calc(100vh - 2rem);*/
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: space-evenly;
+      overflow: hidden;
+      position: relative; 
+  }
+  
+  @-webkit-keyframes Gradient {
+      0% {
+          background-position: 0 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0 50%
+      }
+  }
+  
+  @-moz-keyframes Gradient {
+      0% {
+          background-position: 0 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0 50%
+      }
+  }
+  
+  @keyframes Gradient {
+      0% {
+          background-position: 0 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0 50%
+      }
+  }
+  
+  
+  
+    .st0{display:none;}
+      .st1{display:inline;}
+      .st2{opacity:0.29;}
+      .st3{fill:#FFFFFF;}
+      .st4{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+      .st5{clip-path:url(#SVGID_4_);}
+      .st6{clip-path:url(#SVGID_6_);}
+      .st7{clip-path:url(#SVGID_8_);}
+      .st8{clip-path:url(#SVGID_10_);}
+      .st9{fill:none;}
+      .st10{clip-path:url(#SVGID_12_);}
+      .st11{opacity:0.7;}
+      .st12{clip-path:url(#SVGID_14_);}
+      .st13{opacity:0.2;}
+      .st14{clip-path:url(#SVGID_16_);}
+      .st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;
+  
+  }
+  
+  
+  .melenadre {
+      width: 250px;
+      height: 1000px;
+      background-color: #623604 ;
+      border-radius: 100px 350px 200px 200px;
+      margin: 0 auto;
+    
+  }
+  
+  .melenaesq {
+      width: 250px;
+      height: 1000px;
+      background-color: #623604 ;
+      border-radius: 350px 100px 200px 200px;
+      left: -245px;   
+  }
+  
+  .cap{
+      width: 400px;
+      height: 620px;
+      background-color: antiquewhite;
+      border-radius: 200px 200px 250px 250px;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .pel{
+      height: 90px;
+      background-color: #6E3D05x;
+      border-radius:150px 150px 0px 0px;
+  }
+  
+  
+  .esq{
+      height: 150px;
+      width: 150px;
+      margin: 60px;
+      float: right;
+      clip-path: polygon(35% 23%, 72% 21%, 94% 35%, 69% 34%, 38% 37%, 0 44%, 0 28%);
+    background-color:#643806;
+    right:-40px;
+    
+  
+  }
+  
+  .dre{
+      height: 150px;
+      width: 150px;
+      margin: 60px;
+      float: right;
+      clip-path: polygon(35% 23%, 72% 21%, 94% 35%, 69% 34%, 38% 37%, 0 44%, 0 28%);
+    background-color:#643806;
+    transform:rotateY(180deg);
+    right:180px;
+    top:-270px;
+    
+  }
+  
+  
+  .esqu{
+    background:white;
+    width:110px;
+    height:90px;
+    border-radius:70% 0;
+    display: inline-block;
+    border-radius:0 100px;
+    transform:rotate(147deg);
+    top:140px;
+    right:-40px; 
+    border-bottom: black outset 5px;
+    
+  }
+  
+  .dret{
+    background:white;
+    width:110px;
+    height:90px;
+    border-radius:70% 0;
+    display: inline-block;
+    border-radius:0 100px;
+    transform:rotate(147deg);
+    top: -54px;
+    right:-235px;    
+    transform: scaleX(-1) rotate(1220deg);
+    border-bottom:black outset 5px;
+  }
+  
+  .una {
+    width:50px;
+    height:50px;
+    clip-path: circle(50% at 50% 50%);
+    background-color:#64461C  ;
+    top: 66px;
+    left: 68px;
+  }
+  
+  .dos{
+    width:50px;
+    height:50px;
+    clip-path: circle(50% at 50% 50%);
+    background-color:#64461C;
+    top: 18px;
+    right: -262px;
+    z-index: 10;
+  }
+  
+  .quadrat{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height:550px;
+    width:495px;
+    background-color:#643806;
+    top:-100px;
+    left:-245px;
+  }
+  
+  .una2 {
+    clip-path: polygon(13% 29%, 24% 37%, 21% 28%, 31% 37%, 29% 28%, 36% 34%, 16% 43%, 6% 32%, 20% 39%);
+    background-color:black;
+    height:100px;
+    width:100px;
+    top:-165px;
+    right:-9px;
+    transform:rotate(-10deg);
+  }
+  
+    .dos2 {
+    clip-path: polygon(13% 29%, 24% 37%, 21% 28%, 31% 37%, 29% 28%, 36% 34%, 16% 43%, 6% 32%, 20% 39%);
+    background-color:black;
+    height:100px;
+    width:100px;
+    top:-260px;
+    right:-275px;
+    transform:scaleX(-1) rotate(-19deg);
+  }
+  
+  .boca{
+    border-radius:100% 0;
+    transform:rotate(45deg);
+    background-color:#FF9090    ;
+    height:100px;
+    width:100px;
+    top:-290px;
+    left:195px;
+    border:#F083A2  1px solid;
+  }
+  
+  .iris{
+    width:25px;
+    height:25px;
+    clip-path: circle(50% at 50% 50%);
+    background-color:black;
+    top:-317px;
+    right: -274px;
+    z-index: 10;
+  }
+  
+  .iris1{
+    width:25px;
+    height:25px;
+    clip-path: circle(50% at 50% 50%);
+    background-color:black;
+    top:-344px;
+    right: -80px;
+    z-index: 10;
+  }
+  
+  .nas{
+    margin-top:30px;
+    background-color:antiquewhite;
+    transform:rotate(90deg);
+    border-radius:0% 0 90% 90%;
+    width:30px;
+    height:25px;
+    top:-200px;
+    right:-205px;
+    border-bottom:2px outset #E1CDAF ;
+  }
+  
+  .nas1{
+    margin-top:30px;
+    background-color:antiquewhite; 
+    border-radius:0% 0 50% 50%;
+    width:50px;
+    height:30px;
+    top:-260px;
+    right:-218px;
+    border-bottom:2px outset #E1CDAF   ;
+    z-index:30;
+    background-color:antiquewhite; 
+  }
+  
+  .nas2{
+    margin-top:30px;
+    background-color:antiquewhite;
+    transform:rotate(-90deg);
+    border-radius:0% 0 90% 90%;
+    width:30px;
+    height:25px;
+    top:-320px;
+    right:-250px;
+    border-bottom:2px outset #E1CDAF   ;
+    z-index:29;
+    background-color:antiquewhite; 
+  }
+  
+  .tri{
+  clip-path: polygon(50% 10%, 0 0, 100% 0);
+    background-color:antiquewhite;
+    width:200px;
+    height:180px;
+    top:-385px;
+    right:-148px;
+    border-bottom:#F083A2 5px solid;
+  }
+  
+  .linia{
+    width: 140px;
+    height: 1px ;
+    background-color:#F083A2  ;
+    top:-342px;
+    right:-175px;
+  }
+    
+  

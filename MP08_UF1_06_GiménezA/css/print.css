@@ -1,0 +1,50 @@
+img{
+    width: 55m;
+    height: 85mm;
+    position:absolute;
+}
+
+#W01{
+    width: 17mm;
+    height: 10mm;
+}
+
+#W02{
+    left: 17mm;
+    top: 10mm;
+}
+
+#W03{
+    left: 135mm;
+    top: 10mm;
+}
+
+#W04{
+    left: 17mm;
+    top: 104mm;
+}
+
+#W05{
+    left: 77mm;
+    top: 104mm;
+}
+
+#W06{
+    left: 135mm;
+    top: 104mm;
+}
+
+#W07{
+    left: 17mm;
+    top: 198mm;
+}
+
+#W08{
+    left: 77mm;
+    top: 198mm;
+}
+
+#W09 {
+    left: 135mm;
+    top: 198mm;
+}

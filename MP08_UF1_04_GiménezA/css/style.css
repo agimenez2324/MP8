@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    height: 168px;
+    
+}
+.contactes{
+    height: 195px;
+}
+.contingut{
+    height: 1800px ;
+    width: 1665px;
+    margin: auto;
+}
+
+.centrador{
+    width: 1665px;
+    background-color: rgb(227, 227, 227);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+ul{
+    width: 1060px ;
+    margin:0 auto;
+    padding: 36px;
+}
+.logo{
+    width: 336px; 
+    height: 50px;
+    float: left;
+    background-size:80% ;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav{
+    width: 336px;
+    height: 50px;
+    margin: auto;
+    padding: 16px;
+
+}
+
+.nav ul{
+   
+    width: 296px; 
+    height: 50px;
+    padding: 0;
+    margin: auto;
+
+}
+
+.nav ul li{
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+}
+
+.home{
+    background-image:url(../img/home.png) ;
+}
+
+.search{
+    background-image:url(../img/search.png) ;
+}
+
+.tv{
+    background-image:url(../img/tv.png) ;
+   
+}
+
+.like{
+    background-image:url(../img/like.png) ;
+   
+
+}
+
+.user{
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 164px;
+    float: right;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.post{ 
+    height: 600px;
+    width: 545px;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+
+}
+
+.post img{
+    width: 535px;
+}
+
+.post div{
+    width: 150px;
+    margin: 5px;
+}
+
+.post .postejador {
+    float: left;
+}
+
+.post .postejador img{
+    width: 50px;
+    border-radius: 50%;
+    float: left; 
+}
+
+.post .reaccions {
+    width: 170px;
+    float: right;
+}
+
+.post h5{
+    height: 25px;
+    line-height: 25px;
+    font-weight: 700;
+
+}
+
+.post h6{   
+    height: 20px;
+}
+
+a:link{
+    opacity: 100%;
+}
+
+a:hover {
+    opacity: 60%;
+    background-size: 200%;
+}
+
+#contacte01{
+    background-image: url(../img/Document-sense-títol-\(1\)_09.png);
+
+}
+
+#contacte01:hover{
+    background-size: 200%;
+    background-position: center;
+}
+#contacte02{
+    background-image: url(../img/Document-sense-títol-\(1\)_07.png);
+
+}
+#contacte03{
+    background-image: url(../img/Document-sense-títol-\(1\)_09.png);
+
+}
+#contacte04{
+    background-image: url(../img/Document-sense-títol-\(1\)_07.png);
+
+}
+#contacte05{
+    background-image: url(../img/Document-sense-títol-\(1\)_09.png);
+
+
+}
+#contacte06{
+    background-image: url(../img/Document-sense-títol-\(1\)_07.png);
+
+}
+#contacte07{
+    background-image: url(../img/Document-sense-títol-\(1\)_09.png);
+
+}
+#contacte08{
+    background-image: url(../img/Document-sense-títol-\(1\)_07.png);
+
+}
+#contacte09{
+    background-image: url(../img/Document-sense-títol-\(1\)_09.png);
+
+
+}
+#contacte10{
+    background-image: url(../img/Document-sense-títol-\(1\)_07.png);
+
+}
+
